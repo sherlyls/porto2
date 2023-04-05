@@ -25,8 +25,8 @@ export default function Banner() {
 
       <div className={styles.wordBanner}>
         <div>
-          <div>Hello, I'm Sherly Lolita Sari</div>
-          <div>I'm a Frontend Web Developer</div>
+          <div>Hello, Im Sherly Lolita Sari</div>
+          <div>Im a Frontend Web Developer</div>
         </div>
         <Link className={styles.bannerLink} href="/#professional-portfolio"><div className={styles.buttonView}>View my work</div></Link>
       </div>

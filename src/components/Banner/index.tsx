@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Banner() {
   const vidRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    vidRef.current?.play();
-  }, []);
+  // useEffect(() => {
+  //   vidRef.current?.play();
+  // }, []);
 
 
   return (
@@ -16,7 +16,7 @@ export default function Banner() {
         <video
           className={styles.video}
           src="/banner.mp4"
-          ref={vidRef}
+          // ref={vidRef}
           muted
           autoPlay
           loop

@@ -5,7 +5,7 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   return (
     <div className={styles.footer}>
-      <div className={styles.bigText}>LET'S CONNECT</div>
+      <div className={styles.bigText}>LET&apos;S CONNECT</div>
       <div className={styles.grupIcon}>
         <a
           className={styles.iconFooter}

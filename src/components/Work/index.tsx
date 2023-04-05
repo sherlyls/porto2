@@ -44,7 +44,7 @@ const Work = ({ id, title, description, thumbnail, screenshoots, liststacks, dem
           </div>
           <div className={styles.liststack}>
             {liststacks.map((liststack: any, i: any) => (
-              <div>{liststack}</div>
+              <div key={i}>{liststack}</div>
             ))}
           </div>
 

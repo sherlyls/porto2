@@ -5,12 +5,12 @@ import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const Work = ({ id, title, description, thumbnail, screenshoots, demo }) => {
+const Work = ({ id, title, description, thumbnail, screenshoots, demo }: any) => {
   const [photoIndex, setPhotoIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const images = screenshoots;
 
-  const onClickThumbnail = (e) => {
+  const onClickThumbnail = (e: React.SyntheticEvent) => {
     e.preventDefault();
 
     if (screenshoots.length > 0) {
@@ -47,7 +47,7 @@ const Work = ({ id, title, description, thumbnail, screenshoots, demo }) => {
 
       {isOpen && (
         <Lightbox
-          open={open}
+          open={isOpen}
           close={() => setIsOpen(false)}
           slides={[
             { src: screenshoots[0] },

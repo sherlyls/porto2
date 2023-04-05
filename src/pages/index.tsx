@@ -39,6 +39,7 @@ export default function Home() {
             description={work.description}
             thumbnail={work.image.thumbnail}
             screenshoots={work.image.screenshoots}
+            liststacks={work.liststacks}
             demo={work.link}
           /> 
         ))}

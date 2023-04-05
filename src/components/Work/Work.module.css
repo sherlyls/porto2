@@ -63,7 +63,7 @@
   padding-top: 30px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .grupImage {
@@ -110,14 +110,22 @@
   margin-top: -170px;
 }
 
-/* @media (max-width: 500px) {
-  .minMargin {
-    margin-top: 20px;
-  }
-  .card {
-    width: 100%;
-  }
-} */
+.liststack {
+  text-align: left;
+  padding: 0 50px;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.liststack div {
+  margin-right: 10px;
+  border: 1px solid #796702;
+  color: white;
+  background-color: #796702;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
 @media (max-width: 500px) {
   .leftSide {
     text-align: left;

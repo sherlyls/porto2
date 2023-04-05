@@ -5,7 +5,7 @@ import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const Work = ({ id, title, description, thumbnail, screenshoots, demo }: any) => {
+const Work = ({ id, title, description, thumbnail, screenshoots, liststacks, demo }: any) => {
   const [photoIndex, setPhotoIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const images = screenshoots;
@@ -42,6 +42,12 @@ const Work = ({ id, title, description, thumbnail, screenshoots, demo }: any) =>
             <div className={styles.titleDesc}>{title}</div>
             <div className={styles.contentDesc}>{description}</div>
           </div>
+          <div className={styles.liststack}>
+            {liststacks.map((liststack: any, i: any) => (
+              <div>{liststack}</div>
+            ))}
+          </div>
+
         </div>
       </div>
 
@@ -53,7 +59,6 @@ const Work = ({ id, title, description, thumbnail, screenshoots, demo }: any) =>
             { src: screenshoots[0] },
             { src: screenshoots[1] },
             { src: screenshoots[2] },
-            
           ]}
         />
       )}

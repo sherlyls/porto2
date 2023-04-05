@@ -50,7 +50,8 @@ export const works = [
         "project_highend/highend-3.png",
       ]
     },
-    link: "https://apps.apple.com/id/app/my-dream/id1558081153",
+    liststacks: ["Javascript", "Jquery", "CSS"],
+    link: "https://highend-magazine.okezone.com/",
   },
   {
     id: 2,
@@ -63,7 +64,8 @@ export const works = [
         "/project_nle/nle-2.jpg",
         "/project_nle/nle-3.jpg",
       ]
-    }
+    },
+    liststacks: ["React.js", "Redux"],
   },
   {
     id: 3,
@@ -76,7 +78,8 @@ export const works = [
         "/project_idx/idx2.jpg",
         "/project_idx/idx3.png",
       ]
-    }
+    },
+    liststacks: ["Javascript", "Jquery", "CSS"],
   },
   {
     id: 4,
@@ -89,7 +92,8 @@ export const works = [
         "/project_wmm/wmm2.jpg",
         "/project_wmm/wmm3.png",
       ]
-    }
+    },
+    liststacks: ["Javascript", "Jquery", "SCSS"],
   },
   {
     id: 5,
@@ -102,6 +106,7 @@ export const works = [
         "/project_icaii/icaii-2.png",
         "/project_icaii/icaii-3.png",
       ]
-    }
+    },
+    liststacks: ["Javascript", "Jquery", "CSS"],
   }
 ]

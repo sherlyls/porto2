@@ -1,0 +1,67 @@
+.footer {
+    text-align: center;
+    background-color: #11171d;
+    color: #fff;
+    padding: 30px 0;
+    font-family: CormorantGaramond-SemiBold;
+}
+
+.bigText {
+    font-family: CormorantGaramond-Bold;
+    font-size: 1.48rem;
+    line-height: 1.8rem;
+}
+
+.smallText {
+    font-family: CormorantGaramond-SemiBold;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.iconFooter {
+    color: white;
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.grupText {
+    margin-bottom: 30px;
+}
+
+.grupIcon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 13px 0;
+}
+
+.scrollUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    background-color:#796702;
+    color: #fff;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 7px 15px;
+    border-radius: 7px;
+}
+
+.link {
+    margin-top: 4px;
+}
+
+.link:link, .link:visited {
+    text-decoration: none;
+}
+
+.textScroll {
+    font-size: 1.1rem;
+    font-family: CormorantGaramond-SemiBold;
+}
+
+
+
+

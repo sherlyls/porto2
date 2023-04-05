@@ -1,0 +1,55 @@
+.about {
+    position: relative;
+    width: 100%;
+    padding-top: 48px;
+    background: #796702;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    animation: slideInLeft 0.75s ease both;
+    font-size: 30pt;
+    font-family: Raleway-Bold;
+    
+}
+
+.headerBar {
+    background: #fff;
+    height: 4px;
+    width: 70px;
+    margin: 12px auto 30px;  
+}
+
+.imageWrapper {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.description {
+    text-align: center;
+    margin: 21px auto;
+    font-size: 28px;
+    line-height: 39px;
+    font-family: CormorantGaramond-Regular;
+    width: 625px;
+}
+
+.imageWrapper {
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 500px) {
+    .description {
+        font-size: 18px;
+        line-height: 25px;
+        font-family: 'CormorantGaramond-Bold';
+        width: 300px;
+    }
+}
+

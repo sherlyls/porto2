@@ -1,0 +1,57 @@
+.title {
+    text-align: center;
+    display: flex;
+    color: #796702;
+    text-align: center;
+    animation: Work_slideInLeft__njcY4 0.75s ease both;
+    font-size: 25pt;
+    font-family: Raleway-Bold;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.wrapperStack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width:500px;
+    margin: 0 auto;
+}
+
+.grupStack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 14px;
+}
+
+.headerBar {
+    background: #796702;
+    height: 4px;
+    width: 190px;
+    margin: 15px auto 46px;
+}
+
+/* .imageStack {
+    position: relative;
+} */
+
+.label {
+    top: -1px;
+    left: 0;
+    opacity: 0;
+    background-color: #796702;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 7px;
+}
+
+.imageStack:hover {
+    cursor: pointer;
+}
+
+.imageStack:hover + .label {
+    opacity: 1;
+}

@@ -1,0 +1,138 @@
+.coverImage {
+  width: 100%;
+  height: 300px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.work {
+  margin-top: 50px;
+}
+
+.grupCard {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.headerBar {
+  background: #796702;
+  height: 4px;
+  width: 190px;
+  margin: 15px auto 60px;
+}
+
+.titleWork {
+  display: flex;
+  color: #796702;
+  text-align: center;
+  animation: slideInLeft 0.75s ease both;
+  font-size: 25pt;
+  font-family: Raleway-Bold;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.card {
+  width: 470px;
+  box-shadow: 0 20px 50px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: rgb(0 0 0 / 10%) 0 20px 50px;
+}
+
+.leftSide {
+  text-align: left;
+  margin-right: auto;
+}
+
+.rightSide {
+  text-align: right;
+  margin-left: auto;
+}
+
+.grupDescription {
+  text-align: left;
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.grupImage {
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.imgCard {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 290px;
+  transition: transform 0.5s ease;
+}
+
+.imgCard:hover {
+  transform: scale(1.5);
+}
+
+.titleDesc {
+  font-family: Optima;
+  color: #796702;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.contentDesc {
+  font-family: CormorantGaramond-SemiBold;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  color: #5d5c5c;
+  cursor: pointer;
+}
+
+.minMargin {
+  margin-top: -170px;
+}
+
+/* @media (max-width: 500px) {
+  .minMargin {
+    margin-top: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+} */
+@media (max-width: 500px) {
+  .leftSide {
+    text-align: left;
+    margin: unset;
+    width: 100%;
+  }
+  .rightSide {
+    text-align: left;
+    margin: unset;
+    width: 100%;
+  }
+  .grupCard {
+    width: unset;
+  }
+  .minMargin {
+    margin-top: 20px;
+  }
+}

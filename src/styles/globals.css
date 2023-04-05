@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("../assets/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: Optima;
+  src: url("../assets/optima.TTF");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../assets/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: CormorantGaramond-Bold;
+  src: url("../assets/CormorantGaramond-Bold.ttf");
+}
+
+@font-face {
+  font-family: CormorantGaramond-Regular;
+  src: url("../assets/CormorantGaramond-Regular.ttf");
+}
+
+@font-face {
+  font-family: CormorantGaramond-SemiBold;
+  src: url("../assets/CormorantGaramond-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: CormorantGaramond-BoldItalic;
+  src: url("../assets/CormorantGaramond-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: CormorantGaramond-MediumBold;
+  src: url("../assets/CormorantGaramond-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: CormorantGaramond-SemiBoldItalic;
+  src: url("../assets/CormorantGaramond-SemiBoldItalic.ttf");
+}
+
+
+html {
+  --scroll-behavior: smooth!important;
+  scroll-behavior: smooth!important;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerBar {
+  background: #444649;
+  height: 4px;
+  width: 70px;
+}

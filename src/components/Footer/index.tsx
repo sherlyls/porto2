@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.grupIcon}>
         <a
           className={styles.iconFooter}
-          href="https://www.linkedin.com/in/sherly-lolita-sari-44a272274/"
+          href="https://www.linkedin.com/in/sherlyls/"
           target="_blank"
         >
           <TiSocialLinkedin />

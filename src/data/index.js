@@ -33,6 +33,10 @@ export const projects = {
               {
                 image: "sta-sass.png",
                 label: "SASS",
+              },
+              {
+                image: "sta-typescript.svg",
+                label: "Typescript",
               }
         ]
     }
